@@ -220,7 +220,7 @@ header li {
 /* PRICE SECTION */
 
 .price {
-  padding: 10rem 0;
+  padding: 10rem 0 0 0;
 }
 
 .price .container {
@@ -309,4 +309,23 @@ header li {
 
 .col.price-misure4 {
   flex: 1 1 100%;
+}
+
+/* SECTION IMAGE TWO COL */
+
+.two-col {
+  padding: 10rem 0 0 0;
+}
+
+.two-col .row {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  gap: 4rem;
+}
+
+.two-col .col-small {
+  padding-top: 3rem;
 }
