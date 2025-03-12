@@ -220,12 +220,25 @@ header li {
 /* HERO SECTION */
 
 .price {
-  padding: 10rem;
+  padding: 10rem 0;
+}
+
+.price .container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 .price .row {
-  width: 65%;
+  width: 55%;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
+}
+
+.price li {
+  padding: 0 1rem 0 0;
+}
+
+.price li i {
+  padding: 0 0.5rem 0 0;
 }
