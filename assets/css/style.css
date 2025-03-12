@@ -329,3 +329,20 @@ header li {
 .two-col .col-small {
   padding-top: 3rem;
 }
+
+/* SECTION CARAT */
+
+.carat {
+  padding: 10rem 0 0 0;
+}
+
+.carat .row {
+  width: 60%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.col.carat-col-misure {
+  width: calc(100% / 3 - 2rem);
+}
