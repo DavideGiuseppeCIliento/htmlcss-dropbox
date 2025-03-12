@@ -1,4 +1,22 @@
+/* DEBUG */
+
+.db-color1 {
+  background-color: green;
+}
+
+.db-color2 {
+  background-color: yellow;
+}
+
+.db-color3 {
+  background-color: blue;
+}
+
 /* RESET VARIABILI GLOBALI */
+
+html {
+  font-size: 17px;
+}
 
 * {
   padding: 0;
@@ -41,6 +59,11 @@ a {
   min-height: 100vh;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
 .flex-element {
   display: flex;
   gap: 5px;
@@ -53,25 +76,29 @@ a {
 
 .column-element-wrap {
   flex-flow: column wrap;
+  gap: 5px;
+}
+
+.col {
 }
 
 /* TIPOGRAFIA */
 
 h1 {
-  font-size: 45px;
+  font-size: 4rem;
   font-weight: bolder;
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 2.5rem;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 2rem;
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 
 /* UTILITY */
@@ -104,16 +131,67 @@ h4 {
   }
 }
 
-/* DEBUG */
+/* HEADER */
 
-.db-color1 {
-  background-color: green;
+header section {
+  box-shadow: 0 0 5px rgb(0, 0, 0, 0.2);
 }
 
-.db-color2 {
-  background-color: yellow;
+header .container {
+  width: 98%;
+  margin: 0 auto;
 }
 
-.db-color3 {
-  background-color: blue;
+header .row {
+  justify-content: space-between;
+  align-items: center;
+  min-height: 80px;
+}
+
+header .col.flex-element {
+  align-items: center;
+}
+
+header li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.col.menu2 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.btn-style {
+  background-color: #0361fa;
+  color: #f5f8fa;
+  padding: 5px 15px;
+  border: 2px solid #0361fa;
+  font-size: inherit;
+}
+
+/* HERO SECTION */
+
+.hero .container {
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.hero .row {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.col.col-small {
+  width: 35%;
+  flex: 0 1 35%;
+}
+
+.col.col-big {
+  flex: 1 1 65%;
 }
