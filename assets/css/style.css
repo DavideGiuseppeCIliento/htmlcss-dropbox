@@ -421,7 +421,7 @@ header li {
 /* FOOTER */
 
 .section-footer {
-  padding: 6rem 0 0 0;
+  padding: 6rem 0;
   margin: 6rem 0 0 0;
   background-color: #000;
   color: white;
@@ -453,7 +453,7 @@ hr {
   width: 10%;
   border: none;
   min-height: 1px;
-  margin-top: 6rem;
+  margin-top: 2rem;
 }
 
 .row.lang {
@@ -462,6 +462,6 @@ hr {
   color: rgba(255, 255, 255, 0.459);
 }
 
-.row.lang i {
+footer i {
   padding-right: 1rem;
 }
