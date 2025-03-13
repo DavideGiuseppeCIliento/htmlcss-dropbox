@@ -1,3 +1,30 @@
+/* MODELLO STRUTTURA */
+/* container {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+
+[class*='col'] {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.col-1-2 {
+  width: calc(100% / 2);
+} */
+
 /* DEBUG */
 
 .db-color1 {
@@ -66,7 +93,7 @@ p {
 
 .row {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .flex-element {
@@ -84,7 +111,8 @@ p {
   gap: 5px;
 }
 
-.col {
+.col-100 {
+  width: 100%;
 }
 
 /* TIPOGRAFIA */
@@ -209,7 +237,7 @@ header li {
 }
 
 .col.col-big {
-  flex: 1 1 65%;
+  flex: 1 1 60%;
 }
 
 .hero i {
