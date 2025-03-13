@@ -108,11 +108,31 @@ p {
 
 .column-element-wrap {
   flex-flow: column wrap;
-  gap: 5px;
+  gap: 15px;
+}
+
+.space-between-column {
+  justify-content: space-between;
+}
+
+.space-around-column {
+  justify-content: space-around;
 }
 
 .col-100 {
   width: 100%;
+}
+
+.col-30 {
+  width: 30%;
+}
+
+.col-70 {
+  width: 70%;
+}
+
+.m-bottom {
+  margin-bottom: 2rem;
 }
 
 /* TIPOGRAFIA */
@@ -159,6 +179,10 @@ h4 {
 .li-inline {
   display: inline-block;
   padding: 0 20px;
+}
+
+.btn-resize {
+  width: max-content;
 }
 
 /* RESPONSIVE DESIGN */
@@ -222,8 +246,8 @@ header li {
 }
 
 .hero .row {
-  width: 75%;
-  margin: 0 auto;
+  width: 80%;
+  margin: 0 auto -5rem auto;
   display: flex;
   justify-content: center;
 }
@@ -250,6 +274,11 @@ header li {
 
 .hero h1 {
   font-weight: 900;
+}
+
+.push-down {
+  margin-top: auto;
+  padding-bottom: 7rem;
 }
 
 /* PRICE SECTION */
